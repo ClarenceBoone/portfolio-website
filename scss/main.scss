@@ -215,7 +215,7 @@ img {
     }
 }
 
-// Contct Page
+// Contact Page
 #contact {
     &-a {
         .text-fields {
@@ -223,7 +223,7 @@ img {
             grid-template-areas: 'name email' 'subject phone' 'message message';
             grid-gap: 1.2rem;
             margin-bottom: 1.2rem;
-            // Gid Areas
+            // Grid Areas
             .name-input {
                 grid-area: name;
             }

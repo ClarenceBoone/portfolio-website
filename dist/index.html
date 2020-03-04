@@ -1,71 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<script
+			src="https://kit.fontawesome.com/a6fce89b49.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Khalil Idris | UI/UX Designer & Footwear Designer</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/a6fce89b49.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Khalil Idris | UI/UX Designer & Footwear Designer</title>
-</head>
+	<body>
+		<!-- Header -->
+		<header id="header-home">
+			<div class="container">
+				<nav id="main-nav">
+					<img src="img/logo.png" alt="My Portfolio" id="logo" />
+					<ul>
+						<li><a href="index.html" class="current">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="work.html">Work</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="header-content">
+					<h1>
+						I am Khalil Idris
+						<span
+							class="txt-type"
+							data-wait="3000"
+							data-words='["Footwear Designer", "Product Designer", "Web Developer"]'
+						></span>
+					</h1>
+					<p class="lead">
+						I specialize in web applications and product design
+					</p>
+					<a href="work.html" class="btn-light">View My Work</a>
+				</div>
+			</div>
+		</header>
 
-<body>
-    <!-- Header -->
-    <header id="header-home">
-        <div class="container">
-            <nav id="main-nav">
-                <img src="img/logo.png" alt="My Portfolio" id="logo">
-                <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-content">
-                <h1>I am Khalil Idris
-                    <span class="txt-type" data-wait="3000" data-words='["Footwear Designer", "Product Designer", "UI/UX Developer"]'></span>
-                </h1>
-                <p class="lead">
-                    I specialize in product design and UI/UX design
-                </p>
-                <a href="work.html" class="btn-light">View My Work</a>
-            </div>
-        </div>
-    </header>
+		<!-- Secton A: Specialize -->
+		<section id="home-a" class="text-center py-2">
+			<div class="container">
+				<h2 class="section-title">I Specialize In</h2>
+				<div class="bottom-line"></div>
+				<p class="lead">
+					Creating digital concepts of products and UI/UX layouts for web
+					applications
+				</p>
+				<div class="specials">
+					<div>
+						<i class="fas fa-file-alt fa-2x"></i>
+						<h3>Concepting</h3>
+						<p>
+							I draw out several sketches by hand to get different variations of
+							the client's vision.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-desktop fa-2x"></i>
+						<h3>UI/UX</h3>
+						<p>
+							I begin to digitally draw out the skeleton of those sketches using
+							Figma and Framer X.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-object-ungroup fa-2x"></i>
+						<h3>Visual Design</h3>
+						<p>
+							Create polished visual design details for each web and app page.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Secton A: Specialize -->
-    <section id="home-a" class="text-center py-2">
-        <div class="container">
-            <h2 class="section-title">I Specialize In</h2>
-            <div class="bottom-line"></div>
-            <p class="lead">
-                Creating digital concepts of products and UI/UX layouts for websites and mobile applications
-            </p>
-            <div class="specials">
-                <div>
-                    <i class="fas fa-file-alt fa-2x"></i>
-                    <h3>Concepting</h3>
-                    <p>I draw out several sketches by hand to get different variations of the client's vision.</p>
-                </div>
-                <div>
-
-                    <i class="fas fa-desktop fa-2x"></i>
-                    <h3>UI/UX</h3>
-                    <p>I begin to digitally draw out the skeleton of those sketches using Figma and Framer X.</p>
-                </div>
-                <div>
-                    <i class="fas fa-object-ungroup fa-2x"></i>
-                    <h3>Visual Design</h3>
-                    <p>Create polished visual design details for each web and app page.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section B: Stats
+		<!-- Section B: Stats
     <section id="home-b" class="text-center py-2">
         <div class="stats">
             <div>
@@ -99,68 +117,80 @@
         </div>
     </section> -->
 
-    <!-- Section C: Process -->
-    <section id="home-c" class="text-center py-2">
-        <div class="container">
-            <h2 class="section-title">
-                My Creative Process
-            </h2>
-            <div class="bottom-line"></div>
-            <p class="lead">
-                All of my UI/UX and design projects are detailed and well thought out to best fit the clients' needs.
-            </p>
-            <div class="process">
-                <div>
-                    <i class="fas fa-file-alt fa-4x process-icon my-2">
-                        <div class="process-step">1</div>
-                    </i>
-                    <div class="clr"></div>
-                    <h3>Discuss The Project</h3>
-                    <p>I discuss the project details with my clients. I gather all necessary references and inspirations for the their vision.</p>
-                </div>
-                <div>
-                    <i class="fas fa-desktop fa-4x process-icon my-2">
-                        <div class="process-step">2</div>
-                    </i>
-                    <div class="clr"></div>
-                    <h3>Brainstorming & Concepting</h3>
-                    <p>After discussing with my client(s), I compare the different variations of hand drawn sketches. </p>
-                </div>
-                <div>
-                    <i class="fas fa-object-ungroup fa-4x process-icon my-2">
-                        <div class="process-step">3</div>
-                    </i>
-                    <div class="clr"></div>
-                    <h3>UI/UX Planning</h3>
-                    <p>I digitally recreate those hand drawn sketches several times. </p>
-                </div>
-                <div>
-                    <i class="fas fa-thumbs-up fa-4x process-icon my-2">
-                        <div class="process-step">4</div>
-                    </i>
-                    <div class="clr"></div>
-                    <h3>Interaction</h3>
-                    <p>Client receives final product within the timeline of terms.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+		<!-- Section C: Process -->
+		<section id="home-c" class="text-center py-2">
+			<div class="container">
+				<h2 class="section-title">
+					My Creative Process
+				</h2>
+				<div class="bottom-line"></div>
+				<p class="lead">
+					All of my UI/UX and design projects are detailed and well thought out
+					to best fit the clients' needs.
+				</p>
+				<div class="process">
+					<div>
+						<i class="fas fa-file-alt fa-4x process-icon my-2">
+							<div class="process-step">1</div>
+						</i>
+						<div class="clr"></div>
+						<h3>Discuss The Project</h3>
+						<p>
+							I discuss the project details with my clients. I gather all
+							necessary references and inspirations for the their vision.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-desktop fa-4x process-icon my-2">
+							<div class="process-step">2</div>
+						</i>
+						<div class="clr"></div>
+						<h3>Brainstorming & Concepting</h3>
+						<p>
+							After discussing with my client(s), I compare the different
+							variations of hand drawn sketches.
+						</p>
+					</div>
+					<div>
+						<i class="fas fa-object-ungroup fa-4x process-icon my-2">
+							<div class="process-step">3</div>
+						</i>
+						<div class="clr"></div>
+						<h3>UI/UX Planning</h3>
+						<p>I digitally recreate those hand drawn sketches several times.</p>
+					</div>
+					<div>
+						<i class="fas fa-thumbs-up fa-4x process-icon my-2">
+							<div class="process-step">4</div>
+						</i>
+						<div class="clr"></div>
+						<h3>Interaction</h3>
+						<p>Client receives final product within the timeline of terms.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Footer -->
-    <footer id="main-footer">
-        <div class="footer-content container">
-            <p>Copyright &copy; 2020. All Rights Reserved</p>
-            <div class="social">
-                <!-- <i class="fab fa-instagram"></i> -->
-                <a href="https://www.instagram.com/khalilidris/" class="fab fa-instagram"></a>
-                <!-- <i class="fab fa-linkedin"></i> -->
-                <a href="https://www.linkedin.com/in/khalil-idris-56a26778" class="fab fa-linkedin"></a>
-            </div>
-        </div>
-    </footer>
+		<!-- Footer -->
+		<footer id="main-footer">
+			<div class="footer-content container">
+				<p>Copyright &copy; 2020. All Rights Reserved</p>
+				<div class="social">
+					<!-- <i class="fab fa-instagram"></i> -->
+					<a
+						href="https://www.instagram.com/khalilidris/"
+						class="fab fa-instagram"
+					></a>
+					<!-- <i class="fab fa-linkedin"></i> -->
+					<a
+						href="https://www.linkedin.com/in/khalil-idris-56a26778"
+						class="fab fa-linkedin"
+					></a>
+				</div>
+			</div>
+		</footer>
 
-    <!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-pB4E -->
-    <script src="js/typewriter.js"></script>
-</body>
-
+		<!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-pB4E -->
+		<script src="js/typewriter.js"></script>
+	</body>
 </html>

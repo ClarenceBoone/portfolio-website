@@ -395,10 +395,10 @@ img {
 	}
 }
 
-/* .items {
+.items {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 0.6em;
+	grid-gap: 0.5em;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -454,7 +454,7 @@ img {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	line-height: 0;
 }
 
@@ -492,34 +492,4 @@ img {
 	font-size: 1.2rem;
 	opacity: 0.7;
 	margin: 0;
-} */
-
-:root {
-	--fade-time: 0.5s;
-}
-
-.main-img img,
-.imgs img {
-	width: 100%;
-}
-
-.imgs {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 5px;
-}
-
-.imgs img {
-	cursor: pointer;
-}
-
-@keyframes fadeIn {
-	to {
-		opacity: 1;
-	}
-}
-
-.fade-in {
-	opacity: 0;
-	animation: fadeIn var(0.5s) ease-in 1 forwards;
 }

@@ -399,7 +399,7 @@ img {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 0.5em;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .item {
